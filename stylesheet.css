@@ -151,6 +151,7 @@ nav {
 	
 #gallery {
 	padding-top: 80px;
+	min-width: 800px;
 }	
 #galleryImage {
 	width: 19%;
@@ -195,6 +196,8 @@ nav {
 #filmParagraph {
 	position: fixed;
 	margin-top: 12%;
+	width: 38%;
+	min-width: 320px;
 }
 #filmParagraph p {
 	
