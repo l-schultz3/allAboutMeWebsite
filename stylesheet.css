@@ -8,6 +8,10 @@ a {
 	text-decoration: none;
 }
 
+em {
+	font-size: 10px;
+}
+
 nav {
 	width: 100%;
 	background: gray;
@@ -30,6 +34,18 @@ nav {
 	position: relative;
 	float: left;
 	margin: 5px;
+}
+#navName {
+	margin: 20px 20px;
+	padding: 5px;
+	float: left;
+	position: relative;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+#navName p {
+	margin: 5px 0px;
+	color: white;
 }
 #menuElement {
 	margin: 20px 20px;
@@ -96,7 +112,11 @@ nav {
 	text-align: center;
 }
 
+#galleryBackground {
+	background-color: black;
+}
 #gallerySelectDigital {
+	min-width: 680px;
 	width: 50%;
 	height: 800px;
 	overflow: hidden;
@@ -109,6 +129,7 @@ nav {
 	background-repeat: no-repeat;
 }
 #gallerySelectFilm {
+	min-width: 680px;
 	width: 50%;
 	height: 800px;
 	overflow: hidden;
@@ -198,6 +219,10 @@ nav {
 	margin-top: 12%;
 	width: 38%;
 	min-width: 320px;
+}
+#filmClickText {
+	float: right; 
+	margin-top: -60px;
 }
 #filmParagraph p {
 	
