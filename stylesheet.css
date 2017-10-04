@@ -214,16 +214,28 @@ nav {
 	display: block;
 }
 
+#clickText {
+	float: right; 
+	margin-top: -60px;
+}
 #filmParagraph {
 	position: fixed;
 	margin-top: 12%;
 	width: 38%;
 	min-width: 320px;
 }
-#filmClickText {
-	float: right; 
-	margin-top: -60px;
+#digitalParagraph {
+	float: right;
+	margin-right: 45px;
+	margin-top: -20px;
+	width: 38%;
+	min-width: 320px;
 }
-#filmParagraph p {
-	
+
+#portrait {
+	background-image: url("media/luke1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 300px;
 }
