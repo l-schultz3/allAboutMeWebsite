@@ -115,6 +115,30 @@ nav {
 #galleryBackground {
 	background-color: black;
 }
+#galleryTitleDigital {
+	position: absolute;
+	padding-top: 15%;
+	padding-left: 21.75%;
+}
+#galleryTitleDigital p {
+	font-size: 30px;
+	color: black;
+	padding: 3px;
+	border-left: #000 3px solid;
+	border-right: #000 3px solid;
+}
+#galleryTitleFilm {
+	position: absolute;
+	padding-top: 15%;
+	padding-left: 69.5%;
+}
+#galleryTitleFilm p {
+	font-size: 30px;
+	color: black;
+	padding: 3px;
+	border-left: #000 3px solid;
+	border-right: #000 3px solid;
+}
 #gallerySelectDigital {
 	min-width: 680px;
 	width: 50%;
@@ -198,7 +222,7 @@ nav {
 	text-align: center;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0, 0, 0, 0.8);
 }
 .lightbox img {
 	/** Pad the lightbox image */
@@ -232,10 +256,22 @@ nav {
 	min-width: 320px;
 }
 
+#aboutPage {
+	padding-top: 80px;
+}
 #portrait {
-	background-image: url("media/luke1.jpg");
+	background-image: url("media/luke.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 300px;
 	height: 300px;
+	border: #ccc 3px solid;
+	border-radius: 100%;
+	float: left;
+	position: relative;
+}
+#aboutPage p {
+	float: left;
+	position: relative;
+	width: 1200px;
 }
