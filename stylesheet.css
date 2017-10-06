@@ -134,10 +134,10 @@ nav {
 }
 #galleryTitleFilm p {
 	font-size: 30px;
-	color: black;
+	color: #666;
 	padding: 3px;
-	border-left: #000 3px solid;
-	border-right: #000 3px solid;
+	border-left: #666 3px solid;
+	border-right: #666 3px solid;
 }
 #gallerySelectDigital {
 	min-width: 680px;
@@ -274,4 +274,8 @@ nav {
 	float: left;
 	position: relative;
 	width: 1200px;
+}
+#aboutPage ul {
+	margin-left: 300px;
+	list-style: none;
 }
