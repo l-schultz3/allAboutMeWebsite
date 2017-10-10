@@ -2,14 +2,9 @@ html {
 	font-size: 16px;
 	font-family: helvetica, sans-serif;
 }
-
 a {
 	color: white;
 	text-decoration: none;
-}
-
-em {
-	font-size: 10px;
 }
 
 nav {
@@ -206,15 +201,9 @@ nav {
 	position: relative;
 }
 
-/*Lightbox Code
-	taken and changed from: https://codepen.io/gschier/pen/HCoqh
-	2017-9-29
-*/
+/*Lightbox Code taken and changed from: https://codepen.io/gschier/pen/HCoqh [2017-9-29] */
 .lightbox {
-	/** Default lightbox to hidden */
 	display: none;
-
-	/** Position and style */
 	position: fixed;
 	z-index: 1001;
 	width: 100%;
@@ -225,22 +214,19 @@ nav {
 	background: rgba(0, 0, 0, 0.8);
 }
 .lightbox img {
-	/** Pad the lightbox image */
 	max-width: 90%;
 	max-height: 80%;
 	margin-top: 2%;
 }
 .lightbox:target {
-	/** Remove default browser outline */
 	outline: none;
-
-	/** Unhide lightbox **/
 	display: block;
 }
 
 #clickText {
 	float: right; 
-	margin-top: -60px;
+	margin-top: -57px;
+	font-size: 10px;
 }
 #filmParagraph {
 	position: fixed;
