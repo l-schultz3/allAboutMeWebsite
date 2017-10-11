@@ -7,6 +7,7 @@ a {
 	text-decoration: none;
 }
 
+/* navigation bar styling */
 nav {
 	width: 100%;
 	background: gray;
@@ -59,6 +60,7 @@ nav {
 	color: white;
 }
 
+/* front page styling */
 #splashScreen {
 	min-width: 1000px;
 	width: 101.25%;
@@ -107,6 +109,7 @@ nav {
 	text-align: center;
 }
 
+/* gallery select page styling */
 #galleryBackground {
 	background-color: black;
 }
@@ -188,7 +191,8 @@ nav {
 	color: white;
 	text-align: center;
 }
-	
+
+/* gallery page styling */
 #gallery {
 	padding-top: 80px;
 	min-width: 800px;
@@ -200,8 +204,26 @@ nav {
 	margin: 1px;
 	position: relative;
 }
+#clickText {
+	float: right; 
+	margin-top: -57px;
+	font-size: 10px;
+}
+#filmParagraph {
+	position: fixed;
+	margin-top: 12%;
+	width: 38%;
+	min-width: 320px;
+}
+#digitalParagraph {
+	float: right;
+	margin-right: 45px;
+	margin-top: -20px;
+	width: 38%;
+	min-width: 320px;
+}
 
-/*Lightbox Code taken and changed from: https://codepen.io/gschier/pen/HCoqh [2017-9-29] */
+/* lightbox code taken and changed from: https://codepen.io/gschier/pen/HCoqh [2017-9-29] */
 .lightbox {
 	display: none;
 	position: fixed;
@@ -223,25 +245,7 @@ nav {
 	display: block;
 }
 
-#clickText {
-	float: right; 
-	margin-top: -57px;
-	font-size: 10px;
-}
-#filmParagraph {
-	position: fixed;
-	margin-top: 12%;
-	width: 38%;
-	min-width: 320px;
-}
-#digitalParagraph {
-	float: right;
-	margin-right: 45px;
-	margin-top: -20px;
-	width: 38%;
-	min-width: 320px;
-}
-
+/* about page styling */
 #aboutPage {
 	padding-top: 80px;
 }
