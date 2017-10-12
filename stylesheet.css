@@ -261,11 +261,10 @@ nav {
 	position: relative;
 }
 #aboutPage p {
-	float: left;
-	position: relative;
-	width: 1200px;
+	position: absolute;
+	margin-left: 315px;
 }
-#aboutPage ul {
-	margin-left: 300px;
-	list-style: none;
+#aboutPage #lists {
+	margin-top: 300px;
+	margin-left: 315px;
 }
