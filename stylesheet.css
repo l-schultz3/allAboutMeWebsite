@@ -138,12 +138,11 @@ nav {
 	border-right: #666 3px solid;
 }
 #gallerySelectDigital {
-	min-width: 680px;
 	width: 50%;
 	height: 800px;
 	overflow: hidden;
 	float: left;
-	margin-top: -10px;
+	margin-top: -25px;
 	margin-left: -10px;
 	background-image: url("media/ropes.jpg");
 	background-position: center;
@@ -151,13 +150,11 @@ nav {
 	background-repeat: no-repeat;
 }
 #gallerySelectFilm {
-	min-width: 680px;
 	width: 50%;
 	height: 800px;
 	overflow: hidden;
 	float: left;
-	margin-top: -10px;
-	margin-right: 10px;
+	margin-top: -25px;
 	background-image: url("media/torch.jpg");
 	background-position: center;
 	background-size: 175%;
